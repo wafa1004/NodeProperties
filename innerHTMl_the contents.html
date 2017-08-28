@@ -1,0 +1,21 @@
+<!-- innerHTML allows to get the HTML inside the element as a string-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>innerHTML: the contents</title>
+</head>
+<body>
+    <p id="para">A paragraph</p>
+    <div>A div</div>
+
+    <script>
+        //document.body.innerHTML = '<b>test';
+        alert( document.body.innerHTML );
+        document.getElementById("para").innerHTML = 'The new body!';
+    </script>
+</body>
+</html>

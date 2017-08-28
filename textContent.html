@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>textContent</title>
+</head>
+<body>
+    <!--<div id="news">-->
+        <!--<h1>Headline!</h1>-->
+        <!--<p>Martians attack people!</p>-->
+    <!--</div>-->
+
+    <div id="elem1"></div>
+    <div id="elem2"></div>
+
+    <script>
+        //Headline! Martians attack people!
+        //alert(news.textContent);
+
+        let name = prompt("What's your name?", "<b>Winnie-the-pooh!</b>");
+        elem1.innerHTML = name;
+        elem2.textContent = name;
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!-- outerHTML replaces but doesn't change the elements
+unlike innerHTML-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>outerHTML</title>
+</head>
+<body>
+    <div>Hello, world!</div>
+    <script>
+        let div = document.querySelector('div');
+
+        //replace div.outerHTML with <p>...</p>
+        div.outerHTML = '<p>A new element</p>';
+
+        //wow! the div is still the same!
+        alert(div.outerHTML);
+    </script>
+</body>
+</html>

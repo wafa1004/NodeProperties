@@ -1,0 +1,19 @@
+<!-- hidden is assigned to the second div but we can still
+apply the apply it to the third div-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>the "hidden" property</title>
+</head>
+<body>
+    <div>Both divs below are hidden!</div>
+    <div hidden>With the attribute "hidden"</div>
+    <div id="elem">JavaScript assigned the property "hidden"</div>
+
+    <script>
+    elem.hidden = true;
+</script>
+</body>
+</html>
